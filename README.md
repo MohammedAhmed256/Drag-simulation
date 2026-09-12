@@ -53,14 +53,6 @@ Technologies used:
 -SciPy
 -Matplotlib
 
-## Installation & Usage
-
-### 1. Download the repository 
-
-Clone the repository using Git:
-
-```bash
-git clone https://github.com/MohammedAhmed256/Drag-simulation.git
 
 
 
