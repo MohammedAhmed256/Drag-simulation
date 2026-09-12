@@ -32,8 +32,8 @@ Key Features
 
 Results & Insights:
 -The simulations demonstrate several key physical behaviours such as drag reducing range and breaks trajectory symmetry, producing steeper descent paths. Higher mass reduces the relative effect of drag, increasing range. Altitude-dependent drag increases range due to reduced air resistance at higher altitudes
--RK4 significantly outperforms Euler, exhibiting faster convergence and improved stability
--Optimal launch angle is less than 45° under drag, due to energy loss during flight
+-RK4 significantly outperforms Euler, exhibiting faster convergence and improved stability, which is why outside the convergence study only RK4 is used
+-Optimal launch angle is less than the expected 45° angle due to energy losses from air resistance during the flight.
 
 Example Outputs:
 
@@ -43,13 +43,24 @@ Drag model comparisons
 Convergence plots (log-log error scaling)
 Optimal launch angle calculations
 
+Project structure:
+The simulation's initial conditions can be changed and the results can be viewed in simulation.ipynb. The results of the convergence study and the error analysis can be seen in convergence.ipynb
+
+
 Technologies used:
 -Python
 -NumPy
 -SciPy
 -Matplotlib
 
+## Installation & Usage
 
+### 1. Download the repository 
+
+Clone the repository using Git:
+
+```bash
+git clone https://github.com/MohammedAhmed256/Drag-simulation.git
 
 
 
