@@ -53,7 +53,11 @@ Technologies used:
 -SciPy
 -Matplotlib
 
+Changlogs:
+I fixed how the simulation would check if the projectile was at ground level to use linear interpolation between the last point above ground and the first point bellow ground, this gives more accurate results
 
+Upcoming changes:
+I would like to try and simulate how wind could affect the motion of the projectile, this would make it much more applicable to real life engineering challenges.
 
 
 
