@@ -22,7 +22,7 @@ Euler Method, a first-order method, computationally simple with lower accuracy a
 Runge-Kutta (RK4), a fourth-order method that is significantly higher accuracy (Used as the primary solver in this project)
 A convergence study is performed to compare the accuracy of both methods as the timestep (Δt) decreases
 
-Key Features
+Key Features:
 -Simulation of 2D projectile motion with quadratic drag
 -Comparison of Euler and RK4 integration methods
 -Convergence analysis using log-log error scaling
